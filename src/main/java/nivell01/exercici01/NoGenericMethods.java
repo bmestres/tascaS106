@@ -2,9 +2,9 @@ package nivell01.exercici01;
 
 public class NoGenericMethods {
 
-    String elem01;
-    String elem02;
-    String elem03;
+    private final String elem01;
+    private final String elem02;
+    private final String elem03;
 
     public NoGenericMethods(String arg01, String arg02, String arg03) {
         this.elem01 = arg01;

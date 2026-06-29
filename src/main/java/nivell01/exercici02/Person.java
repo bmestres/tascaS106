@@ -2,9 +2,9 @@ package nivell01.exercici02;
 
 public class Person {
 
-    String name;
-    String surname;
-    int age;
+    private final String name;
+    private final String surname;
+    private final int age;
 
     public Person(String name, String surname, int age){
         this.name = name;
