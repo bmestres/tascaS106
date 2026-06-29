@@ -11,4 +11,16 @@ public class Person {
         this.surname = surname;
         this.age = age;
     }
+
+    public String getName(){
+        return this.name;
+    }
+
+    public String getSurname(){
+        return this.surname;
+    }
+
+    public int getAge(){
+        return this.age;
+    }
 }
