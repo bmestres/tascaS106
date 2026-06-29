@@ -6,9 +6,21 @@ public class NoGenericMethods {
     int elem02;
     int elem03;
 
-    public NoGenericMethods(int arg01, int arg02, int arg03){
-        this. elem01 = arg01;
-        this. elem02 = arg02;
+    public NoGenericMethods(int arg01, int arg02, int arg03) {
+        this.elem01 = arg01;
+        this.elem02 = arg02;
         this.elem03 = arg03;
+    }
+
+    public int getElem01() {
+        return this.elem01;
+    }
+
+    public int getElem02() {
+        return this.elem02;
+    }
+
+    public int getElem93(){
+        return this.elem03;
     }
 }
