@@ -1,4 +1,4 @@
-package nivell01.exercici02;
+package nivell02.exercici01;
 
 public class Person {
 
@@ -23,7 +23,6 @@ public class Person {
     public int getAge(){
         return this.age;
     }
-
     @Override
     public String toString() {
         return String.format("%s\n%s\n%d\n", this.name, this.surname, this.age);

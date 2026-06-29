@@ -1,8 +1,8 @@
-package nivell01.exercici02;
+package nivell02.exercici01;
 
 public class GenericMethods {
 
-    public static <T, W, Z> void printElements(T a, W b, Z c) {
+    public static <T> void printElements(String a, T b, T c){
 
         System.out.println(a);
         System.out.println(b);
